@@ -26,9 +26,7 @@ app.use(express.json());
 
 // Routing
 app.use('/users', Routes);
-// app.use("/api", require("./routes/apiRoutes"));
-// app.use("/upload", require("./routes/uploadRoutes"));
-// app.use("/host", require("./routes/downloadRoutes"));
+
 
 const PORT = process.env.PORT || 5000
 

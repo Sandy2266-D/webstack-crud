@@ -17,9 +17,10 @@ const Home = () => {
     const classes = useStyles();
     return (
         <Box className={classes.component}>
-            <Typography variant="h4">Code for Interview</Typography>
+            <Typography variant="h4">Web Satck Development</Typography>
             <Box style={{display: 'flex'}}>
-                <img src="https://rubygarage.s3.amazonaws.com/uploads/article_image/file/709/technology-stack-diagram.jpg" className={classes.image} />
+                <img src="https://www.annexorien.com/blog/wp-content/uploads/2020/03/web-development-delhi.jpg" className={classes.image} />
+                <img src="https://www.spotcodes.com/wp-content/uploads/2021/03/web_banner.jpg" className={classes.image} />
                 
             </Box>
         </Box>
